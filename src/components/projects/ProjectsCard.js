@@ -51,7 +51,7 @@ const ProjectsCard = ({
             rel="noopener noreferrer"
             className="border border-y-designColor p-1 px-2 rounded-md bg-transparent hover:bg-designColor/30 duration-300"
           >
-            Live
+            LiveLink
           </a>
           <a
             href={githubLink}

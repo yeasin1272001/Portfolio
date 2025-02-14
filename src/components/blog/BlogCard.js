@@ -1,6 +1,13 @@
 import React from "react";
 
-const BlogCard = ({ image, title, subTitle, category }) => {
+const BlogCard = ({
+  image,
+  title,
+  subTitle,
+  category,
+  liveLink,
+  githubLink,
+}) => {
   return (
     <div className="py-6 flex flex-col gap-2 items-center justify-center border-b-[1px] border-b-zinc-800 group">
       <div className="w-full h-full mb-2 overflow-hidden relative cursor-pointer">
@@ -18,6 +25,24 @@ const BlogCard = ({ image, title, subTitle, category }) => {
           {subTitle}
         </h2>
         <p className="text-sm -mt-1 text-gray-400">{category}</p>
+        <div className="flex items-center gap-3">
+          <a
+            href={liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-y-designColor p-1 px-2 rounded-md bg-transparent hover:bg-designColor/30 duration-300"
+          >
+            Live Link
+          </a>
+          <a
+            href={githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-y-designColor p-1 px-2 rounded-md bg-transparent hover:bg-designColor/30 duration-300"
+          >
+            GitHub Link
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import BlogCard from "./BlogCard";
 const Blog = () => {
   return (
     <div>
-      <Title title="Latest" subTitle="Posts" />
+      <Title title="Latest" subTitle="Other Projects" />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 p-4">
         <div
           style={{
@@ -19,6 +19,8 @@ const Blog = () => {
             title="September 16, 2020"
             subTitle="UI & UX Conference at Lviv 2022"
             category="Travel"
+            githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+            liveLink="https://shofyproject.vercel.app"
           />
         </div>
         <div
@@ -32,6 +34,8 @@ const Blog = () => {
             title="September 16, 2020"
             subTitle="UI & UX Conference at Lviv 2022"
             category="Travel"
+            githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+            liveLink="https://shofyproject.vercel.app"
           />
         </div>
         <div
@@ -45,6 +49,8 @@ const Blog = () => {
             title="September 16, 2020"
             subTitle="UI & UX Conference at Lviv 2022"
             category="Travel"
+            githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+            liveLink="https://shofyproject.vercel.app"
           />
         </div>
         <div
@@ -58,6 +64,8 @@ const Blog = () => {
             title="September 16, 2020"
             subTitle="UI & UX Conference at Lviv 2022"
             category="Travel"
+            githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+            liveLink="https://shofyproject.vercel.app"
           />
         </div>
         <div
@@ -71,6 +79,8 @@ const Blog = () => {
             title="September 16, 2020"
             subTitle="UI & UX Conference at Lviv 2022"
             category="Travel"
+            githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+            liveLink="https://shofyproject.vercel.app"
           />
         </div>
         <div
@@ -84,6 +94,8 @@ const Blog = () => {
             title="September 16, 2020"
             subTitle="UI & UX Conference at Lviv 2022"
             category="Travel"
+            githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+            liveLink="https://shofyproject.vercel.app"
           />
         </div>
         <div
@@ -97,6 +109,8 @@ const Blog = () => {
             title="September 16, 2020"
             subTitle="UI & UX Conference at Lviv 2022"
             category="Travel"
+            githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+            liveLink="https://shofyproject.vercel.app"
           />
         </div>
         <div
@@ -110,6 +124,8 @@ const Blog = () => {
             title="September 16, 2020"
             subTitle="UI & UX Conference at Lviv 2022"
             category="Travel"
+            githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+            liveLink="https://shofyproject.vercel.app"
           />
         </div>
         <div
@@ -123,6 +139,8 @@ const Blog = () => {
             title="September 16, 2020"
             subTitle="UI & UX Conference at Lviv 2022"
             category="Travel"
+            githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+            liveLink="https://shofyproject.vercel.app"
           />
         </div>
         <div
@@ -136,6 +154,8 @@ const Blog = () => {
             title="September 16, 2020"
             subTitle="UI & UX Conference at Lviv 2022"
             category="Travel"
+            githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+            liveLink="https://shofyproject.vercel.app"
           />
         </div>
 
