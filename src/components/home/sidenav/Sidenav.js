@@ -9,7 +9,7 @@ const Sidenav = () => {
         <li className="sidenavLi">Blog Page</li>
         <li className="sidenavLi">Portfolio Page</li>
       </ul>
-      <SidenavTitle title="P" subTitle="rojects" />
+      <SidenavTitle title="P" subTitle="Projects" />
       <ul>
         <li className="sidenavLi">Web Development</li>
         <li className="sidenavLi">E-commerce</li>
