@@ -14,12 +14,12 @@ import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="p-3">
       <Title title="Recent" subTitle="Projects" />
       <div className="w-full ">
-        <div className=" grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
+        <div className=" grid grid-cols-1 md:grid-cols-1 gap-6 lg:gap-10">
           <div
-            className="px-6 "
+            className=" "
             style={{
               border: "1px solid yellow",
               boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
@@ -28,6 +28,81 @@ const Projects = () => {
             <ProjectsCard
               className=""
               title="Tree Plantish"
+              category="Website"
+              des1="Framer Motion, Carousel, Marquee."
+              des2="Framer Motion, Carousel, Marquee."
+              des3="Framer Motion, Carousel, Marquee."
+              image={workImgOne}
+              githubLink="https://github.com/yeasinmiah1272001/Tree-Plantation"
+              liveLink="https://tree-plantation.vercel.app/"
+            />
+          </div>
+          <div
+            style={{
+              border: "1px solid yellow",
+              boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
+            }}
+          >
+            <ProjectsCard
+              className=""
+              title="E-Commarce-Shofy"
+              category="Website"
+              des1="Framer Motion, Carousel, Marquee."
+              des2="Framer Motion, Carousel, Marquee."
+              des3="Framer Motion, Carousel, Marquee."
+              image={workImgTwo}
+              githubLink="https://github.com/your-repo-blog"
+              liveLink="https://your-live-demo-blog.com"
+            />
+          </div>
+          <div
+            style={{
+              border: "1px solid yellow",
+              boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
+            }}
+          >
+            <ProjectsCard
+              className=""
+              title="Tree Plantish"
+              category="Website"
+              des1="Framer Motion, Carousel, Marquee."
+              des2="Framer Motion, Carousel, Marquee."
+              des3="Framer Motion, Carousel, Marquee."
+              image={workImgThree}
+              githubLink="https://github.com/your-repo-blog"
+              liveLink="https://your-live-demo-blog.com"
+            />
+          </div>
+          <div
+            style={{
+              border: "1px solid yellow",
+              boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
+            }}
+          >
+            <ProjectsCard
+              className=""
+              title="Tree Plantish"
+              category="Website"
+              des1="Framer Motion, Carousel, Marquee."
+              des2="Framer Motion, Carousel, Marquee."
+              des3="Framer Motion, Carousel, Marquee."
+              image={workImgThree}
+              githubLink="https://github.com/your-repo-blog"
+              liveLink="https://your-live-demo-blog.com"
+            />
+          </div>
+          <div
+            style={{
+              border: "1px solid yellow",
+              boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
+            }}
+          >
+            <ProjectsCard
+              className=""
+              title="Tree Plantish"
+              des1="Framer Motion, Carousel, Marquee."
+              des2="Framer Motion, Carousel, Marquee."
+              des3="Framer Motion, Carousel, Marquee."
               category="Website"
               image={workImgThree}
               githubLink="https://github.com/your-repo-blog"
@@ -35,7 +110,6 @@ const Projects = () => {
             />
           </div>
           <div
-            className="px-6 "
             style={{
               border: "1px solid yellow",
               boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
@@ -45,70 +119,9 @@ const Projects = () => {
               className=""
               title="Tree Plantish"
               category="Website"
-              image={workImgThree}
-              githubLink="https://github.com/your-repo-blog"
-              liveLink="https://your-live-demo-blog.com"
-            />
-          </div>
-          <div
-            className="px-6 "
-            style={{
-              border: "1px solid yellow",
-              boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
-            }}
-          >
-            <ProjectsCard
-              className=""
-              title="Tree Plantish"
-              category="Website"
-              image={workImgThree}
-              githubLink="https://github.com/your-repo-blog"
-              liveLink="https://your-live-demo-blog.com"
-            />
-          </div>
-          <div
-            className="px-6 "
-            style={{
-              border: "1px solid yellow",
-              boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
-            }}
-          >
-            <ProjectsCard
-              className=""
-              title="Tree Plantish"
-              category="Website"
-              image={workImgThree}
-              githubLink="https://github.com/your-repo-blog"
-              liveLink="https://your-live-demo-blog.com"
-            />
-          </div>
-          <div
-            className="px-6 "
-            style={{
-              border: "1px solid yellow",
-              boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
-            }}
-          >
-            <ProjectsCard
-              className=""
-              title="Tree Plantish"
-              category="Website"
-              image={workImgThree}
-              githubLink="https://github.com/your-repo-blog"
-              liveLink="https://your-live-demo-blog.com"
-            />
-          </div>
-          <div
-            className="px-6 "
-            style={{
-              border: "1px solid yellow",
-              boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
-            }}
-          >
-            <ProjectsCard
-              className=""
-              title="Tree Plantish"
-              category="Website"
+              des1="Framer Motion, Carousel, Marquee."
+              des2="Framer Motion, Carousel, Marquee."
+              des3="Framer Motion, Carousel, Marquee."
               image={workImgThree}
               githubLink="https://github.com/your-repo-blog"
               liveLink="https://your-live-demo-blog.com"

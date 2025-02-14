@@ -23,7 +23,6 @@ const AboutMe = () => {
             <span className="aboutRightLiSpan">Age:</span>
             23
           </li>
-
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">Freelance:</span>
             Available
@@ -32,6 +31,15 @@ const AboutMe = () => {
             <span className="aboutRightLiSpan">Address:</span>
             Dhaka, Lalbag
           </li>
+
+          <li className="aboutRightLi">
+            <span className="aboutRightLiSpan">Phone:</span>
+            +8801910255376
+          </li>
+          {/* <li className="aboutRightLi">
+            <span className="aboutRightLiSpan">Education:</span>
+            Diploma in Computer Technology & Architecture
+          </li> */}
         </ul>
       </div>
     </div>
