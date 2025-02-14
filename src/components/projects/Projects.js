@@ -29,9 +29,9 @@ const Projects = () => {
               className=""
               title="Tree Plantish"
               category="Website"
-              des1="Framer Motion, Carousel, Marquee."
+              des1=" Next.js, TypeScript, Tailwind CSS"
               des2="Framer Motion, Carousel, Marquee."
-              des3="Framer Motion, Carousel, Marquee."
+              des3="Stripe.js, Redux, scalable architecture."
               image={workImgOne}
               githubLink="https://github.com/yeasinmiah1272001/Tree-Plantation"
               liveLink="https://tree-plantation.vercel.app/"
@@ -51,8 +51,8 @@ const Projects = () => {
               des2="Framer Motion, Carousel, Marquee."
               des3="Framer Motion, Carousel, Marquee."
               image={workImgTwo}
-              githubLink="https://github.com/your-repo-blog"
-              liveLink="https://your-live-demo-blog.com"
+              githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+              liveLink="https://shofyproject.vercel.app"
             />
           </div>
           <div
@@ -63,14 +63,15 @@ const Projects = () => {
           >
             <ProjectsCard
               className=""
-              title="Tree Plantish"
+              title="Doctor Appointment"
               category="Website"
               des1="Framer Motion, Carousel, Marquee."
               des2="Framer Motion, Carousel, Marquee."
               des3="Framer Motion, Carousel, Marquee."
               image={workImgThree}
-              githubLink="https://github.com/your-repo-blog"
               liveLink="https://your-live-demo-blog.com"
+              githubLink="https://github.com/yeasinmiah1272001/Doctor-Client"
+              Sever="https://github.com/yeasinmiah1272001/Doctor-Server"
             />
           </div>
           <div

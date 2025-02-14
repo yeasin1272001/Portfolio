@@ -9,6 +9,7 @@ const ProjectsCard = ({
   des1,
   des2,
   des3,
+  Sever,
 }) => {
   return (
     <div className="w-full h-auto flex flex-col md:flex-row justify-between items-center bg-gray-900 border-b-[1px] border-b-zinc-700 p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
@@ -19,12 +20,11 @@ const ProjectsCard = ({
           src={image}
           alt={title}
         />
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-green-600 to-green-200 opacity-30"></div>
       </div>
 
       {/* Details Section */}
       <div className="w-full md:w-2/3 mt-4 md:mt-0 pl-0 md:pl-6">
-        <h3 className="text-2xl font-semibold text-white mb-2">{title}</h3>
+        <h3 className="text-xl font-medium text-white mb-2">{title}</h3>
         <p className="text-base text-gray-400 mb-4">{category}</p>
 
         {/* Description */}
@@ -46,6 +46,14 @@ const ProjectsCard = ({
         {/* Buttons */}
         <div className="space-x-2 mt-3">
           <a
+            href={liveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-y-designColor p-1 px-2 rounded-md bg-transparent hover:bg-designColor/30 duration-300"
+          >
+            Live
+          </a>
+          <a
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
@@ -53,14 +61,16 @@ const ProjectsCard = ({
           >
             GitHub
           </a>
-          <a
-            href={liveLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-y-designColor p-1 px-2 rounded-md bg-transparent hover:bg-designColor/30 duration-300"
-          >
-            Live Demo
-          </a>
+          {Sever && (
+            <a
+              href={Sever}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-y-designColor p-1 px-4 rounded-md bg-transparent hover:bg-designColor/30 duration-300"
+            >
+              Server
+            </a>
+          )}
         </div>
       </div>
     </div>
