@@ -26,7 +26,6 @@ const Blog = () => {
             title3="Framer motion"
             title4="Stripe js"
             subTitle="Beauty Pearlar"
-            category="Travel"
             githubLink="https://github.com/yeasinmiah1272001/parlour"
             liveLink="https://parlour-blush.vercel.app/"
           />
