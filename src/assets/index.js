@@ -8,8 +8,9 @@ import workImgSix from "./work/workImgSix.jpg";
 import workImgSeven from "./work/workImgSeven.jpg";
 import workImgEight from "./work/workImgEight.jpg";
 import blogImgOne from "./blog/blogImgOne.jpg";
-import blogImgTwo from "./blog/blogImgTwo.jpg";
-import blogImgThree from "./blog/blogImgThree.jpg";
+import blogImgTwo from "./blog/blogImgTwo.png";
+import blogImgThree from "./blog/blogImgThree.png";
+import blogImgFour from "./blog/blogImgFour.png";
 
 export {
   bannerImg,
@@ -24,4 +25,5 @@ export {
   blogImgOne,
   blogImgTwo,
   blogImgThree,
+  blogImgFour,
 };

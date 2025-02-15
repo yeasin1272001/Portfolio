@@ -45,16 +45,18 @@ const Projects = () => {
           >
             <ProjectsCard
               className=""
-              title="E-Commarce-Shofy"
+              title="Online News Portal"
               category="Website"
-              des1="Framer Motion, Carousel, Marquee."
-              des2="Framer Motion, Carousel, Marquee."
-              des3="Framer Motion, Carousel, Marquee."
-              image={workImgTwo}
-              githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
-              liveLink="https://shofyproject.vercel.app"
+              des1="React, Tailwind CSS,TanStack Query, Firebase"
+              des2="Node.js, Express.js, Mongoose, MongoD"
+              des3="Server on Vercel."
+              image={workImgFour}
+              githubLink="https://github.com/yeasinmiah1272001/Newspaer-clent-side/tree/main/webNewsWeb-clinet-main"
+              liveLink="https://webnewswave-client.web.app"
+              Sever="https://github.com/yeasinmiah1272001/Newspaer-clent-side/tree/main/webNewsWeb-server-v1-main/webNewsWeb-server-v1-main"
             />
           </div>
+
           <div
             style={{
               border: "1px solid yellow",
@@ -74,6 +76,7 @@ const Projects = () => {
               Sever="https://github.com/yeasinmiah1272001/Doctor-Server"
             />
           </div>
+
           <div
             style={{
               border: "1px solid yellow",
@@ -82,14 +85,14 @@ const Projects = () => {
           >
             <ProjectsCard
               className=""
-              title="Tree Plantish"
+              title="E-Commarce-Shofy"
               category="Website"
               des1="Framer Motion, Carousel, Marquee."
               des2="Framer Motion, Carousel, Marquee."
               des3="Framer Motion, Carousel, Marquee."
-              image={workImgThree}
-              githubLink="https://github.com/your-repo-blog"
-              liveLink="https://your-live-demo-blog.com"
+              image={workImgTwo}
+              githubLink="https://github.com/yeasinmiah1272001/shofy-practice-main"
+              liveLink="https://shofyproject.vercel.app"
             />
           </div>
           <div
