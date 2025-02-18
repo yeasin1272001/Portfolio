@@ -71,7 +71,7 @@ const Projects = () => {
               des2="Framer Motion, Carousel, Marquee."
               des3="Framer Motion, Carousel, Marquee."
               image={workImgThree}
-              liveLink="https://your-live-demo-blog.com"
+              liveLink="https://doctor-client-lovat.vercel.app"
               githubLink="https://github.com/yeasinmiah1272001/Doctor-Client"
               Sever="https://github.com/yeasinmiah1272001/Doctor-Server"
             />
